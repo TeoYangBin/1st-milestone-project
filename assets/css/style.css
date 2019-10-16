@@ -1,0 +1,88 @@
+
+/* ----------------------------------------Heading */
+
+
+
+
+
+
+
+
+/* ----------------------------------------paddings/margin/text */
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.navbar-background {
+	padding: 0px !important;
+	height:50px !important;
+}
+
+.list-inline-item:not(:last-child){
+	margin:0;
+	padding:0em;
+}
+
+.menucontainer {
+	font-size:0;
+}
+
+.navitem {
+	padding: 0;
+	width: 150px;
+	height: 50px;
+}
+
+.navitem a{
+	width:100%;
+	text-decoration: none;
+	text-align:center;
+}
+
+.navitem a i{
+	color: #fafafa;
+	padding-top: 8px;
+	display: block;
+	font-size: 15px;
+}
+
+.navitem span {
+	color: #fafafa;
+	margin:0;
+	display: block;
+	width: 100%;
+	padding-top: 5px;
+	text-align:center;
+	font-size:10px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+}
+
+/* ----------------------------------------Background*/
+
+#background {
+	background-image: url('../images/background_tools.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 0px;
+	z-index:1;
+}
+
+.navbar-background {
+	background-color: #767271 !important;
+}
+
+.navitem {
+	padding:0;
+	margin:0;
+	
+}
+
+/* ----------------------------------------Hover */
+.hvr-sweep-to-bottom:before {
+	background-color:rgba(0,0,0,0.2);
+	height:50px;
+}
+
