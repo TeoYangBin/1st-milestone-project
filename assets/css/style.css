@@ -1,3 +1,7 @@
+/* ----------------------------------------font import */
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap');
+
 
 /* ----------------------------------------Heading */
 .navbar-background {
@@ -45,11 +49,80 @@
 	letter-spacing: 0.5px;
 }
 
+/* ----------------------------------------Body */
+body {
+	max-width:100%;
+	
+}
+
+
 
 /* ----------------------------------------paddings/margin/text */
+.col-sm-2 {
+	max-width:33.33%;
+}
 
 .uppercase {
 	text-transform: uppercase;
+}
+
+.points {
+	margin:20px;
+
+}
+
+section{
+	margin-bottom: 200px;
+}
+
+
+.selling-point {
+	margin-top:20px;
+	margin-left: 20px;
+	margin-right:20px;
+}
+
+.anton {
+	margin-top:20px;
+	font-family: 'Anton', sans-serif;
+	font-size:30px;
+	font-weight:20px;
+}
+
+.roboto {
+	margin-bottom:20px;
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	
+}
+
+
+.about-us {
+	margin:20px;
+	background-color:rgba(0,15,147,0.5);
+	width: 100%;
+	color: #BFBFBF;
+}
+
+.descrip{
+	font-family: 'Playfair Display', serif;
+}
+
+.center{
+	text-align:center;
+}
+
+.alert {
+	color: red;
+	margin:20px;
+	padding:0;
+	position: relative;
+	-webkit-animation-name: alert;
+	-webkit-animation-duration:4s;
+	-webkit-animation-iteration-count: infinite;
+	animation-name: alert;
+	animation-duration:4s;
+	animation-iteration-count: infinite;
 }
 
 .footer-details {
@@ -57,8 +130,93 @@
 	font-size: 15px;
 }
 
-h6{
-	font-size:10px;
+
+.vision-row{
+	margin:2%;
+}
+
+
+.flip-card{
+	margin:10px;
+	background-color: transparent;
+	width: 300px;
+	height: 200px;
+}
+
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+	
+}
+
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+  
+}
+
+
+.flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	font-size:50px;
+	
+}
+
+
+.flip-card-front {
+	background-color: #FF8652;
+	color: black;
+	border-radius:50%;
+	border: 2px solid #040404;
+	border-radius:20%;
+
+	
+}
+
+
+.flip-card-back {
+	background-color: #FF8652;
+	transform: rotateY(180deg);
+	padding-top:15px;
+	border: 2px solid #CD4141;
+	border-radius:20%;
+	
+}
+
+.flip-card-back .roboto {
+	font-size:20px;
+	font-weight:4px;
+}
+
+.flip-card-front a i {
+	padding-top:10px;
+	background: #767271;
+	height: 70px;
+	width:70px;
+	border-radius:50%;
+	color: #59CAEE;
+}
+
+
+.steps .selling-point {
+	min-height:100px;
+	min-width:100px;
+	color:black;
+	border: 2px solid #743F3F;
+	border-radius:0%;
+	margin:10px;
+
+}
+
+.selling-point .anton {
+	font-size:25px;
+	text-decoration: underline;
 }
 
 
@@ -77,6 +235,7 @@ h6{
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
 .social-links li a i:hover {
 	background: #964F4CFF;
 }
@@ -85,10 +244,11 @@ h6{
 .footer-detail a {
 	text-decoration:none;
 }
+
 /* ----------------------------------------Background*/
 
 #background {
-	background-image: url('../images/background_tools.jpg');
+	background-image: url('../images/background.png');
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -109,6 +269,22 @@ h6{
 	background-color: #1E2942
 }
 
+.selling-point {
+	background-color:#E9E6E6;
+	border-radius:20%;
+	
+}
+
+.insufficient {
+	margin-top:20px;
+	background-color: #3AD3C1;
+	color: white;
+}
+
+.alert {
+	background-color: rgba(255, 0, 0, 0.2);
+}
+
 /* ----------------------------------------Hover */
 .hvr-sweep-to-bottom:before {
 	background-color:rgba(0,0,0,0.2);
@@ -117,3 +293,22 @@ h6{
 
 
 /* ----------------------------------------Footer */
+
+/* ----------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 576px){
+	.col-sm-2 {
+		max-width:33.33%;
+	}
+}
+
+/* --------------------------------------- -webkit-keyframs */
