@@ -64,6 +64,12 @@ Testing
 
 Credit
 
+https://booking.kakakmaid.com/
+https://www.w3schools.com/
+https://www.pexels.com/
+font awesome
+bootstrap
+
 Content
 
 Media 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" type="text/css" />
 	<link rel="stylesheet" href="assets/fontawesome/fontawesome-free-5.11.2-web/css/all.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css"/>
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -14,20 +15,20 @@
     <title>Haley Schafer Portfolio - Full Stack Web Developer</title>
 </head>
 
-<body id="background">
+<body id="background" class="about-bg">
 <! --Nav bar -->
 	<header>
 		<nav class="row no-gutters navbar-fixed-top navbar-background">
 			<div class="col-md-6">		
 				<ul id="nav" class="list-inline menucontainer">
 					<li class="col-6 col-sm-2 uppercase list-inline-item navitem">
-						<a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-home" aria-hidden="true"></i><span>home</span></a>
+						<a href="index.html" class="hvr-sweep-to-bottom"><i class="fas fa-home" aria-hidden="true"></i><span>home</span></a>
 					</li>
 					<li class="col-6 col-sm-2 uppercase list-inline-item navitem">
-						<a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-shuttle-van" aria-hidden="true"></i><span>service</span></a>
+						<a href="service.html" class="hvr-sweep-to-bottom"><i class="fas fa-shuttle-van" aria-hidden="true"></i><span>service</span></a>
 					</li>
 					<li class="col-6 col-sm-2 uppercase list-inline-item navitem">
-						<a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-phone-alt" aria-hidden="true"></i><span>contact</span></a>
+						<a href="contact.html" class="hvr-sweep-to-bottom"><i class="fas fa-phone-alt" aria-hidden="true"></i><span>contact</span></a>
 					</li>
 				</ul>
 			</div>
@@ -81,15 +82,18 @@
 			
 			</div>
 		</div>
-		<div class="row center alert">
+		<div class="row center red">
 			<div class="mx-auto " style="width:300px;">
 				<a class="uppercase anton">We got your back!!!</a>
 			</div>
 		</div>
 			
 <!----about us--->		
-		<div id="about" class="row no-gutters about-us">
-			<div class="col ">
+		
+		<div id="about" class="row no-gutters ">
+			
+			<div class="col about-bg">
+			
 				<div class="center">
 					<div class="uppercase anton">About Us</div>
 				</div>
@@ -102,13 +106,23 @@
 							<div class="col-sm-6">
 								<a class="roboto">We provide cleaning service around Kuala Lumpur.</a>
 							</div>
+							<div class="col-sm-6 ">
+								<a class="roboto">We have total of 5 branches located around Kuala Lumpur with 300 employees</a>
+							</div>
+							<div class="col-sm-6">
+								<a class="roboto">We serve every day from 9 am to 7 pm.</a>
+							</div>
 							<div class="col-sm-6 roboto">
-								<a>We have total of 5 branches located around Kuala Lumpur with 300 employees</a>
+								<a class="roboto">We provide in house selection of housemaids at our office.</a>
+							</div>
+							<div class="col-sm-6 roboto">
+								<a class="roboto">We train our employees professionally.</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			
 		</div>
 		
 		
@@ -127,9 +141,7 @@
 						</div>
 							<div class="flip-card-back">
 								<h5 class="anton">Vision</h5>
-								<a class="roboto">
-								Provide high quality manpower.
-								</a>
+								<p class="roboto">Provide high quality manpower.</p>
 							</div>
 						</div>
 					</div>
@@ -140,8 +152,8 @@
 								<h5 class="anton">Mission</h5>
 							</div>
 							<div class="flip-card-back">
-								<h5 class="anton">Vision</h5>
-								<a class="roboto">Maintain high quality service</a>
+								<h5 class="anton">Mission</h5>
+								<p class="roboto">Maintain high quality service</p>
 							</div>
 						</div>
 					</div>
@@ -150,7 +162,7 @@
 		
 <!---how it work?-->		
 		<div id="how-works">
-			<div class="row center alert">
+			<div class="row center red">
 				<div class="col">
 					<div class="uppercase anton">How does it work?</div>
 				</div>
@@ -158,20 +170,20 @@
 			<div class="container">
 				<div class="row no-gutters steps">
 				<div class="col-sm selling-point points">
-					<h6 class="anton">1st Step</h6>
-					<span class="roboto"> Call / send enquiry to us</span>
+					<h6 class="anton center">1st</h6>
+					<span class="roboto"><i class="fas fa-phone-volume"></i> Call / send enquiry to us</span>
 				</div>
 				<div class="col-sm selling-point points">
-					<h6 class="anton">2nd Step</h6>
-					<span class="roboto">Book a time/Engage us with agreement of service</span>
+					<h6 class="anton center">2nd</h6>
+					<span class="roboto"><i class="fas fa-book"></i> Engage us and book service</span>
 				</div>
 				<div class="col-sm selling-point points">
-					<h6 class="anton">3rd Step</h6>
-					<span class="roboto">Deliver service</span>
+					<h6 class="anton center">3rd</h6>
+					<span class="roboto"><i class="fas fa-shuttle-van"></i> Deliver service</span>
 				</div>
 				<div class="col-sm selling-point points">
-					<h6 class="anton">Last Step</h6>
-					<span class="roboto">Payment & statisfaction survey </span>
+					<h6 class="anton center">Last</h6>
+					<span class="roboto"><i class="fas fa-money-bill-wave"></i> Payment & statisfaction survey </span>
 				</div>
 				</div>
 			</div>
@@ -192,8 +204,8 @@
 			<a><span>GCS @ 2019 All right reserved. Terms and Our Privacy Policy</span></a>
 		</div>
 		<div class="row no-gutters footer-details">
-				<div class="col-sm-4">
-					<h6 class="uppercase"> follow us on</h6>
+				<div class="col-sm-2">
+					<h6 class="uppercase "> follow us on</h6>
 					<ul class="list-inline social-links">
 						<li class="list-inline-item">
 							<a target ="_blank" href="#">
@@ -215,18 +227,18 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-2">
 					<h6 class="uppercase">Book us</h6>
 					<ul class="list-inline social-links">
 						<li class="list-inline-item">
-							<a target ="_blank" href="#">
+							<a target ="_blank" href="contact.html">
 								<i class="fas fa-bookmark"></i>
 								<span class="sr-only">Booking page</span>
 							</a>
 						</li>
 					</ul>	
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-2">
 					<h6 class="uppercase">contact us</h6>
 					<ul class="list-inline social-links">
 						<li class="list-inline-item">
@@ -238,9 +250,7 @@
 					</ul>							
 				</div>
 		</div>
-			<div class="row no-gutters footer-details">
-				
-		</div>
+
 	</footer>
 </body>
 
