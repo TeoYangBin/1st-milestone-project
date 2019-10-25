@@ -32,7 +32,7 @@ This website include how does the service works, booking, and how does the servi
 	
 ## UX
 
-![Responsive Views of Home Page] (Documentation/Responsive.png)
+![Responsive Views of Home Page](documentation/responsive.png)
 
 
 ### Users
@@ -51,7 +51,7 @@ he or she had to outsource some of the work to third party.
 Cleaning is important but it is general work and it would not involve any P&C works.
 So they seeks cleaning service provider to help out and keep their area clean.
 
-###Design
+### Design
 
 - The name of the service provider is Grand Cleaning Service.
 - Anton, Roboto and Yellowtail fonts are used for the website. 
@@ -149,16 +149,16 @@ Features planned, implement and for future development
 			-	Calender for members and site manager to manage their time tables during the month
 			
 			
-####Example 
+#### Example 
 
-#####Status of work:
+##### Status of work:
 		The team is driving towards location via GPS ,
 		How many percent the work has been done, 
 		Emergency requests as site manager spotted unexpected problems.
 		Jobs to be done and done.
 		Pending client review and pay,
 		
-#####Default service package:
+##### Default service package:
 		Monthly service
 		Daily service
 		Bi weekly service
