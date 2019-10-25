@@ -32,7 +32,7 @@ This website include how does the service works, booking, and how does the servi
 	
 ## UX
 
-![Responsive Views of Home Page] (documentation/Responsive.png)
+![Responsive Views of Home Page] (Documentation/Responsive.png)
 
 
 ### Users
