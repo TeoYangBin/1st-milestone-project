@@ -203,7 +203,35 @@ This project use the technologies stated below:
 
 ## Testing
 
-The site was tested
+The site was tested on different viewpoints
+	- Galaxy S5 		360 x 640
+	- Pixel 2			411 x 731
+	- iPhone 6/7/8		375 x 667
+	- iPhone 6/7/8 plus	414 x 736
+	- iPhone X			375 x 812
+	- iPad				768 x 1024
+	- iPad Pro			1024 x 1366
+	
+Tested on different browsers
+	- Google Chrome
+	- Internet Explorer
+
+## Deployment
+
+The project is hosted on GitHub Pages and deployed directly from master branch.
+
+The root folder contains Readme.md,index.html and related files.
+The site is update automatically once there are new commits pushed to the master branch.
+The homepage of the deployed site in GitHub pages will be index.html
+ 
+ 
+To run locally:
+- Install git
+- Open your chosen IDE (Cloud9, VS Code, etc.)
+- Open a terminal in your root directory
+- Type 'git clone ' followed by the code taken from github repository
+    - ```git clone https://github.com/TeoYangBin/1st-milestone-project.git```
+- The website can be run by opening one of the HTML files within a web browser
 
 ## Credits
 
@@ -226,9 +254,3 @@ Inspiration, motivation and direction from:
 - Bo Barabas		
 - Alicja	
 - Student Example projects
-
-
-
-
-
-
