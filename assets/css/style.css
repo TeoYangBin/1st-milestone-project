@@ -269,8 +269,6 @@
 	background-color: #ff4540;
 	color: #fafafa;
 	margin:10px;
-	cursor: pointer;
-	border-radius:30%;
 	height:50px;
 }
 
@@ -292,6 +290,8 @@
 .navbar-background {
 	background-color: #1D7073;
 }
+
+
 
 .first-bg {
 	background-image: url('../images/first.png');
@@ -362,10 +362,6 @@
 }
 
 .service-card:hover {
-	background-color:#ff7673;
-}
-
-.submit-button:hover {
 	background-color:#ff7673;
 }
 
