@@ -15,7 +15,7 @@
 
 .navbar-light .navbar-toggler {
 	border-color:white;
-	border: 2px solid (255,255,255,0.5);
+	border: 2px solid rgba(255,255,255,0.5);
 }
 
 .icon{
@@ -81,14 +81,12 @@
 	margin-top:20px;
 	font-family: 'Anton', sans-serif;
 	font-size:30px;
-	font-weight:20px;
 }
 
 .roboto {
 	margin-bottom:20px;
 	font-family: 'Roboto', sans-serif;
 	font-size:15px;
-	font-weight: 10px;
 }
 
 .center{
@@ -280,7 +278,6 @@
 	font-size:25px;
 	font-weight:bold;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 10px;
 	border:none;
 	cursor:pointer;
 }
@@ -381,3 +378,5 @@
 .service-card:hover {
 	background-color:#ff7673;
 }
+
+
